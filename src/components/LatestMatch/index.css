@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.latest-match-logo-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .latest-match-logo-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #475569;
+  }
+}
+.latest-match-details {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.latest-match-details-2 {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.latest-team-logo {
+  width: 200px;
+}
+.headings {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contents {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.scores-list {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-team-logo {
+    width: 100px;
+  }
+  .contents {
+    font-size: 14px;
+  }
+  .latest-match-details {
+    font-size: 18px;
+  }
+  .latest-match-details-2 {
+    font-size: 20px;
+  }
+  .headings {
+    font-size: 18px;
+  }
+}
